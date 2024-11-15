@@ -117,3 +117,15 @@ button.btn-submit:hover {
     color: #2980b9;
     margin-bottom: 5px;
 }
+
+textarea {
+    width: 100%;
+    max-width: 100%; /* Prevents overflow */
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    resize: vertical; /* Allows resizing only vertically */
+    box-sizing: border-box; /* Includes padding in width calculation */
+}
